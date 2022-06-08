@@ -1,0 +1,50 @@
+.user-list {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+}
+
+.index {
+  color: gray;
+  font-weight: 700;
+}
+.user {
+  display: flex;
+}
+.container {
+  align-items: flex-start;
+  justify-content: center;
+}
+.name {
+  font-weight: 900;
+  margin-left: 10px;
+}
+.username {
+  margin-left: 10px;
+  color: rgb(53, 128, 240);
+}
+.user-details {
+  background-color: rgb(207, 205, 205);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 20px;
+  padding: 10px;
+}
+.user-field {
+  display: flex;
+  align-items: center;
+  height: 25px;
+}
+.user-field-name {
+  color: teal;
+  font-weight: 900;
+}
+.user-field-value {
+  margin-left: 10px;
+  color: blue;
+  text-decoration: underline;
+}
+.user-website {
+  color: purple !important;
+}
